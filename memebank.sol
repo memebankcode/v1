@@ -116,7 +116,7 @@ contract MemeBank is Context, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
 
-    string private constant _name = "MemeBank";
+    string private constant _name = "MeMeBank";
     string private constant _symbol = "MBK";
     uint8 private constant _decimals = 18;
 
