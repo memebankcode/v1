@@ -131,19 +131,19 @@ contract MemeBank is Context, IERC20, IERC20Metadata {
      */
     constructor() {
         //mint coin for Early Supporters (5% 10500000)
-        _mint(0x0a14cdD01Fe09F7fc2Cb0c2e6eB37B59AbB64428, 105*10**23);
+        _mint(0x5F71A398F3d1EC929bdD054fd846788eeE67490f, 105*10**23);
         //mint coin for Insurance Fund (5% 10500000)
-        _mint(0xc6b953d69081EA7f36c7256BA44Fb9f2Ae5d5A65, 105*10**23);
+        _mint(0xB96Afa802C298e05fE0852f4Fc927cd95d9020Dd, 105*10**23);
         //mint coin for Team (10% 21000000)
-        _mint(0x002fbe5E0E786d9d64738ebD0691FfC98F584E4F, 210*10**23);
+        _mint(0x31C498b0d222C46fAC6161936f261843f684c210, 210*10**23);
         //mint coin for Liquidity Fund (20% 42000000)
-        _mint(0x024A82f78BE44967441CBAfD3B5B2373E13684ff, 420*10**23);
+        _mint(0xD4b89D3F6F132efF720b0143d016703ABC5e9293, 420*10**23);
         //mint coin for Ecosystem Building (30% 63000000)
-        _mint(0x67BAA876E61607Acf684F2dE6a0eE17184a2b886, 630*10**23);
+        _mint(0x450C405b1Cb44E0cc6C308E1c2170B7DC4e02D26, 630*10**23);
         //mint coin for Marketing (20% 42000000)
-        _mint(0x3773c748B7A871d203C29AA9B38a503163bf0f5B, 420*10**23);
+        _mint(0x800AE08715B385b3Bb9Fb2288713FB2C231279b4, 420*10**23);
         //mint coin for Presale (10% 21000000)
-        _mint(0x9dbF0667bF3E9A69433f4Ace4874eF408981012F, 210*10**23);
+        _mint(0xE9AE1eB23eA1F5316BeBe19cD71982d20a8B1DAc, 210*10**23);
 
     }
 
