@@ -116,7 +116,7 @@ contract MemeBank is Context, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
 
-    string private constant _name = "MeMeBank";
+    string private constant _name = "MemeBank";
     string private constant _symbol = "MBK";
     uint8 private constant _decimals = 18;
 
@@ -131,23 +131,17 @@ contract MemeBank is Context, IERC20, IERC20Metadata {
      */
     constructor() {
         //mint coin for Early Supporters (5% 10500000)
-        _mint(0x47d29dB6c6A5B3D2dF3e4490d0dEd40ada7c924d, 105*10**23);
-        //mint coin for Margin (5% 10500000)
         _mint(0x0a14cdD01Fe09F7fc2Cb0c2e6eB37B59AbB64428, 105*10**23);
         //mint coin for Insurance Fund (5% 10500000)
         _mint(0xc6b953d69081EA7f36c7256BA44Fb9f2Ae5d5A65, 105*10**23);
         //mint coin for Team (10% 21000000)
         _mint(0x002fbe5E0E786d9d64738ebD0691FfC98F584E4F, 210*10**23);
-        //mint coin for Liquidity Fund (15% 31500000)
-        _mint(0x024A82f78BE44967441CBAfD3B5B2373E13684ff, 315*10**23);
-        //mint coin for Liquidity Mining (10% 21000000)
-        _mint(0x12CfD7E2d796e7ceEEd500387712e783081CC5be, 210*10**23);
-        //mint coin for Ecosystem Building (25% 52500000)
-        _mint(0x67BAA876E61607Acf684F2dE6a0eE17184a2b886, 525*10**23);
-        //mint coin for Community Rewards (5% 10500000)
-        _mint(0xF64c4A315D5D3F4E8B3F31141edC2339839e52Fc, 105*10**23);
-        //mint coin for Marketing (10% 21000000)
-        _mint(0x3773c748B7A871d203C29AA9B38a503163bf0f5B, 210*10**23);
+        //mint coin for Liquidity Fund (20% 42000000)
+        _mint(0x024A82f78BE44967441CBAfD3B5B2373E13684ff, 420*10**23);
+        //mint coin for Ecosystem Building (30% 63000000)
+        _mint(0x67BAA876E61607Acf684F2dE6a0eE17184a2b886, 630*10**23);
+        //mint coin for Marketing (20% 42000000)
+        _mint(0x3773c748B7A871d203C29AA9B38a503163bf0f5B, 420*10**23);
         //mint coin for Presale (10% 21000000)
         _mint(0x9dbF0667bF3E9A69433f4Ace4874eF408981012F, 210*10**23);
 
